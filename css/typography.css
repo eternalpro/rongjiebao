@@ -1,0 +1,249 @@
+/* Typography */
+body {
+    font-size: 12px;
+    line-height: 1.7em;
+    font-family: Helvetica,Arial, Sans-Serif;
+}
+
+body.font-size-is-xlarge {
+    font-size: 15px;
+    line-height: 1.7em;
+}
+
+body.font-size-is-large {
+    font-size: 14px;
+    line-height: 1.7em;
+}
+
+body.font-size-is-default {
+    font-size: 12px;
+    line-height: 1.7em;
+}
+
+body.font-size-is-small {
+    font-size: 11px;
+    line-height: 1.7em;
+}
+
+body.font-size-is-xsmall {
+    font-size: 10px;
+    line-height: 1.7em;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0 0 15px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px 0;
+	padding: 38px 0 20px 0;
+    font-weight: normal;
+}
+h1, h3, h4, h5, h6 {
+    line-height: 1.1em;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+code {
+    color: #000;
+    margin: -1px 0 0 0;
+    font: 10px Courier;
+}
+blockquote {
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+    padding: 10px;
+    font: italic 14px/20px Georgia, "Times New Roman", Times, serif;
+}
+.left-1, .left-2, .left-3, .left-4, .left-5, .left-6, .left-7, .left-8, .left-9, .left-10, .right-11 {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    display: inline;
+    position: relative;
+}
+
+.right-1, .right-2, .right-3, .right-4, .right-5, .right-6, .right-7, .right-8, .right-9, .right-10, .right-11 {
+    float: right;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    display: inline;
+    position: relative;
+}
+
+.date-block {
+    padding: 15px;
+}
+
+/* Lists */
+ul,ol {
+    padding-left: 15px;
+    list-style: none outside none;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+}
+
+ul li a {
+    font-size: 1em;
+    line-height: 1.8em;
+}
+
+ul ul {
+    margin-left: 25px;
+    padding: 5px 0;
+}
+
+ul li.author {
+    margin: 0;
+    letter-spacing: 1px;
+    list-style: none;
+    font-weight: bold;
+    text-align: right;
+}
+
+ul li.date {
+    margin: 0;
+    letter-spacing: 1px;
+    list-style: none;
+    text-align: right;
+    font-weight: bold;
+}
+
+ul li.comments {
+    list-style: none;
+    text-align: right;
+    font-weight: bold;
+}
+
+ul li.author span, ul li.date span, ul li.comments span {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 10px;
+    line-height: 1em;
+}
+hr {
+	border-color: #ccc -moz-use-text-color #FFFFFF;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-width: 1px 0;
+    clear: both;
+    display: block;
+    height: 0;
+    line-height: 0;
+    margin: 18px 0 30px;
+    padding: 0;
+}
+/* LINE HR IE8 FIX */
+hr {
+	border-bottom/*\**/:#fff 1px solid\9;
+	border-top/*\**/:#aaa 1px solid\9;
+}
+/* LINE HR IE7 FIX */
+*:first-child+html hr {
+	margin: 15px 0 22px;
+}
+/* LISTS */
+ul.bullet li {
+	padding:0 0 0 25px;
+	background:url(../images/typography/bullet.png) no-repeat 0 7px;
+	line-height:1.5em;
+}
+
+ul.arrow li {
+	padding:0 0 0 30px;
+	background:url(../images/typography/arrow.png) no-repeat 0 2px;
+	line-height:1.5em;
+}
+
+ul.arrow2 li {
+	padding:0 0 0 30px;
+	background:url(../images/typography/arrow2.png) no-repeat 0 2px;
+	line-height:1.5em;
+}
+
+ul.add li {
+	padding:0 0 0 30px;
+	background:url(../images/typography/add.png) no-repeat 0 2px;
+	line-height:1.5em;
+}
+
+ul.check-big li {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:16px;
+	padding:0 0 0 30px;
+	line-height:1.5em;
+}
+ul.check-big li a {
+	line-height:1.5em;
+	text-decoration:none;
+}
+ul.check-big li a:hover {
+	text-decoration:underline;
+}
+ul.star {margin-bottom: 12px;margin-left:0;padding-left:0;}
+ul.star li {
+	font-size:12px;
+	padding:0 0 0 22px;
+	line-height:1.5em;
+}
+ul.star li a {text-decoration: none;}
+ul.star li a:hover {text-decoration: underline;}
+
+ol.ordered {
+	 list-style-type: decimal;
+	 margin:0 0 0 30px;
+}
+
+ol.ordered2 {
+	 list-style-type: upper-roman;
+	 margin:0 0 0 30px;
+}
+
+ol.ordered3 {
+	 list-style-type: upper-alpha;
+	 margin:0 0 0 30px;
+}
+
+ol.ordered4 {
+	 list-style-type: lower-alpha;
+	 margin:0 0 0 30px;
+}
+
+/* Blockquote pull-right */
+
+
+blockquote.pull-right {
+    width: 235px;
+    float: right;
+    margin: 10px 0 10px 15px;
+}
+blockquote.pull-left {
+    width: 235px;
+    float: left;
+    margin: 10px 15px 10px 0;
+}
+
+/* Highlighters */
+span.highlight-1 {
+	background:#000;
+    color: #FFF;
+    padding: 2px 5px;
+}
+span.highlight-2 {
+	background:#FFF;
+    color: #000;
+    padding: 2px 5px;
+}

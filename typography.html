@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Typography :: Vastu Finance</title>
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/typography.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/template.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/slideshow.css" />
+<link rel="stylesheet" type="text/css" href="css/ui.totop.css" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="css/mini-panel.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/style2.css" title="style2" media="screen" />
+<!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
+<script type="text/javascript" src="js/jqueryrotate.js"></script>
+<script type="text/javascript" src="js/mini-panel.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/add.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/CC_Red_Alert_INET_400.font.js"></script>
+<script type="text/javascript" src="js/Helvetica_Neue_200.font.js"></script>
+<script type="text/javascript" src="js/HelveticaNeue_400.font.js"></script>
+<script type="text/javascript" src="js/fonts.js"></script>
+<script type="text/javascript">
+    var $j = jQuery.noConflict();
+    if ($j.browser.msie && $j.browser.version < 8) {
+        window.location.href = "browser.html";
+    }
+/* The Piecemaker 2 settings */
+ 	var flashvars = {}, params = {}, youOps = {};
+	flashvars.cssSource = "css/piecemaker.css";
+	flashvars.xmlSource = "xml/piecemaker.xml";
+	params.play = "true";
+	params.menu = "false";
+	params.scale = "showall";
+	params.wmode = "transparent";
+	params.allowfullscreen = "true";
+	params.allowscriptaccess = "always";
+	params.allownetworking = "all";
+	var $j = jQuery.noConflict();
+	swfobject.embedSWF ('swf/piecemaker.swf', 'piecemaker', '940', '400', '10', null, flashvars, params, null);
+/* Scroll page ToTop settings */
+	$j(document).ready(function(){
+		$j().UItoTop({easingType: 'easeOutQuart'});
+	});
+/* Accordion settings */
+	var $j = jQuery.noConflict();
+	$j(document).ready( function(){
+		$j(".accordion div.toggle-big").eq(0).addClass("selected");
+		$j(".accordion div.toggle-text").eq(0).show().siblings("div.toggle-text").hide();
+		$j(".accordion div.toggle-big").click(function(){
+			$j(this).next("div.toggle-text").slideToggle("slow").siblings("div.toggle-text").slideUp("slow");
+			$j(this).toggleClass("selected").siblings("div.toggle-big").removeClass("selected");
+		});
+	});
+	$j(document).ready( function(){
+		$j(".accordion div.toggle-small").eq(0).addClass("selected");
+		$j(".accordion div.toggle-text").eq(0).show().siblings("div.toggle-text").hide();
+		$j(".accordion div.toggle-small").click(function(){
+			$j(this).next("div.toggle-text").slideToggle("slow").siblings("div.toggle-text").slideUp("slow");
+			$j(this).toggleClass("selected").siblings("div.toggle-small").removeClass("selected");
+		});
+	});
+/* Rotating Logo setup */
+	jQuery(document).ready(function() {
+		var angle = 0;
+		setInterval(function(){
+			angle-=3;
+			jQuery("#rotate2").rotate({
+				'angle':angle
+           	});
+		},50);
+	});
+</script>
+</head>
+<body>
+<!-- Header -->
+<div id="header">
+	<div class="container">
+		<div class="container_12">
+			<div class="grid_5">
+			<a href="index.html" id="logo"><img src="images/style2/logo.png" alt="Vastu Finance" id="rotate2" /></a>
+			</div>
+			<div class="grid_7">
+<!-- Menu -->
+				<div id="topMenu">
+					<div class="user-menu">
+						<ul class="user-menu">
+							<li><a href="javascript:void();">Login</a></li>
+							<li>/</li>
+							<li><a href="javascript:void();">Register</a></li>
+						</ul>
+					</div>
+					<div class="main-menu">
+						<ul class="main-menu">
+							<li><a href="index.html"><div class="menuHover"></div><span>About Us</span></a></li>
+							<li><a href="typography.html"><div class="menuHover"></div><span>Typography</span></a></li>
+							<li><a href="blog.html"><div class="menuHover"></div><span>Blog page</span></a></li>
+							<li><a href="article.html"><div class="menuHover"></div><span>Solutions</span></a></li>
+							<li><a href="contact-us.html"><div class="menuHover"></div><span>Contact Us</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Flash Slider -->
+<div id="showcase">
+	<div class="animation">
+		<div id="piecemaker">
+			<p>
+				In order to view this object you need Flash Player 9+ support!
+			</p>
+			<a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/></a>
+		</div>
+	</div>
+</div>
+<!-- Main content -->
+<div class="container content" id="main">
+	<!-- Content -->
+	<div class="container">
+		<div class="container_12">
+			<div class="grid_12">
+				<h1>Typography</h1>
+				<p>
+					Nulla ut egestas nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer quis lorem quam, vitae varius metus. Aliquam dui neque, dictum id euismod ac, blandit sed ligula. Cras volutpat, dolor eget eleifend ornare.
+				</p>
+				<a href="javascript:void();" class="readmore">Read more</a>
+				<h1>This is H1 tag sample</h1>
+				<p>
+					Nulla ut egestas nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer quis lorem quam, vitae varius metus. Aliquam dui neque, dictum id euismod ac, blandit sed ligula. Cras volutpat, dolor eget eleifend ornare, lectus metus posuere nibh, nec vehicula elit mi in metus. Sed turpis sem, rhoncus vel viverra sed, iaculis eu arcu. Sed aliquet tellus eget risus porttitor vel lobortis mauris tincidunt. Pellentesque ante enim, tempus sit amet suscipit.
+				</p>
+				<a href="javascript:void();" class="readmore">Read more</a>
+				<h2>This is H2 tag sample</h2>
+				<p>
+					Nulla ut egestas nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer quis lorem quam, vitae varius metus. Aliquam dui neque, dictum id euismod ac, blandit sed ligula. Cras volutpat, dolor eget eleifend ornare, lectus metus posuere nibh, nec vehicula elit mi in metus. Sed turpis sem, rhoncus vel viverra sed, iaculis eu arcu. Sed aliquet tellus eget risus porttitor vel lobortis mauris tincidunt. Pellentesque ante enim, tempus sit amet suscipit.
+				</p>
+				<a href="javascript:void();" class="readmore">Read more</a>
+				<h3>This is H3 tag sample</h3>
+				<p>
+					Nulla ut egestas nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer quis lorem quam, vitae varius metus. Aliquam dui neque, dictum id euismod ac, blandit sed ligula. Cras volutpat, dolor eget eleifend ornare, lectus metus posuere nibh, nec vehicula elit mi in metus. Sed turpis sem, rhoncus vel viverra sed, iaculis eu arcu. Sed aliquet tellus eget risus porttitor vel lobortis mauris tincidunt. Pellentesque ante enim, tempus sit amet suscipit.
+				</p>
+				<a href="javascript:void();" class="readmore">Read more</a>
+				<h4>This is H4 tag sample</h4>
+				<p>
+					Nulla ut egestas nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer quis lorem quam, vitae varius metus. Aliquam dui neque, dictum id euismod ac, blandit sed ligula. Cras volutpat, dolor eget eleifend ornare, lectus metus posuere nibh, nec vehicula elit mi in metus. Sed turpis sem, rhoncus vel viverra sed, iaculis eu arcu. Sed aliquet tellus eget risus porttitor vel lobortis mauris tincidunt. Pellentesque ante enim, tempus sit amet suscipit.
+				</p>
+				<a href="javascript:void();" class="readmore">Read more</a>
+				<h5>This is H5 tag sample</h5>
+				<p>
+					Nulla ut egestas nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer quis lorem quam, vitae varius metus. Aliquam dui neque, dictum id euismod ac, blandit sed ligula. Cras volutpat, dolor eget eleifend ornare, lectus metus posuere nibh, nec vehicula elit mi in metus. Sed turpis sem, rhoncus vel viverra sed, iaculis eu arcu. Sed aliquet tellus eget risus porttitor vel lobortis mauris tincidunt. Pellentesque ante enim, tempus sit amet suscipit.
+				</p>
+				<a href="javascript:void();" class="readmore">Read more</a>
+				<h6>This is H6 tag sample</h6>
+				<p>
+					Nulla ut egestas nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer quis lorem quam, vitae varius metus. Aliquam dui neque, dictum id euismod ac, blandit sed ligula. Cras volutpat, dolor eget eleifend ornare, lectus metus posuere nibh, nec vehicula elit mi in metus. Sed turpis sem, rhoncus vel viverra sed, iaculis eu arcu. Sed aliquet tellus eget risus porttitor vel lobortis mauris tincidunt. Pellentesque ante enim, tempus sit amet suscipit.
+				</p>
+				<a href="javascript:void();" class="readmore">Read more</a>
+				<hr/>
+				<h1>Lists</h1>
+				<h3>Marked lists</h3>
+				<div class="grid_2">
+					<ul class="bullet">
+						<li>Cum penatibus</li>
+						<li>Nulla egestas</li>
+						<li>Sed tellus us</li>
+					</ul>
+				</div>
+				<div class="grid_2">
+					<ul class="arrow">
+						<li>Cum penatibus</li>
+						<li>Nulla egestas</li>
+						<li>Sed tellus us</li>
+					</ul>
+				</div>
+				<div class="grid_2">
+					<ul class="arrow2">
+						<li>Cum penatibus</li>
+						<li>Nulla egestas</li>
+						<li>Sed tellus us</li>
+					</ul>
+				</div>
+				<div class="grid_2">
+					<ul class="add">
+						<li>Cum penatibus</li>
+						<li>Nulla egestas</li>
+						<li>Sed tellus us</li>
+					</ul>
+				</div>
+				<div class="grid_3">
+					<ul class="check-big">
+						<li>Cum penatibus</li>
+						<li>Nulla egestas</li>
+						<li>Sed tellus us</li>
+					</ul>
+				</div>
+				<div class="clear">
+				</div>
+				<h3>Ordered lists</h3>
+				<div class="grid_2">
+					<ol class="ordered">
+						<li>Cum penatibus</li>
+						<li>Nulla egestas</li>
+						<li>Sed tellus us</li>
+					</ol>
+				</div>
+				<div class="grid_2">
+					<ol class="ordered2">
+						<li>Cum penatibus</li>
+						<li>Nulla egestas</li>
+						<li>Sed tellus us</li>
+					</ol>
+				</div>
+				<div class="grid_2">
+					<ol class="ordered3">
+						<li>Cum penatibus</li>
+						<li>Nulla egestas</li>
+						<li>Sed tellus us</li>
+					</ol>
+				</div>
+				<div class="grid_2">
+					<ol class="ordered4">
+						<li>Cum penatibus</li>
+						<li>Nulla egestas</li>
+						<li>Sed tellus us</li>
+					</ol>
+				</div>
+				<div class="clear">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container special">
+	<div class="container">
+		<div class="container_12">
+			<div class="grid_12">
+				<h1>Special <strong>Tag Header</strong></h1>
+				<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+				<blockquote>
+					<p>
+						&laquo;Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequ untur magni dolores qui ratione vel voluptatem sequi nesciunt neque quisquam est.&raquo;
+					</p>
+					<span class="quoteauthor">John Doe, Financial Specialist</span>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container content">
+	<div class="container">
+		<div class="container_12">
+			<div class="grid_12">
+				<h1>Quoted text</h1>
+				<blockquote class="pull-right">
+					<p>
+						In nec enim ipsum. Quisque non eros eget nunc ullamcorper gravida. Aliquam erat volutpat. Fusce metus libero, congue quis dignissim.
+					</p>
+				</blockquote>
+				<p>
+					Mauris vulputate laoreet lacus, vel tempus magna auctor at. Maecenas tincidunt felis eu erat gravida commodo. Sed iaculis odio nec tortor dapibus nec consectetur dolor mattis. Nulla at lorem turpis, commodo rutrum libero. Fusce vestibulum nisl vitae lorem pharetra pulvinar condimentum nec dui. Aliquam porttitor vestibulum est, ac vehicula magna porta et. Maecenas porta felis fermentum augue sollicitudin molestie. Morbi quis tortor sed dui sodales sollicitudin at accumsan neque. Donec felis arcu, cursus eget volutpat in, vulputate at sapien. Cras arcu enim, dictum in tincidunt vitae, euismod sit amet ante. Nam vitae diam tellus. Nulla semper sodales massa sit amet malesuada. Vestibulum accumsan hendrerit dui, at vestibulum erat venenatis vitae. Phasellus pulvinar venenatis est, vel porta arcu pretium a. Pellentesque lobortis, ante tincidunt posuere sollicitudin, lorem nunc congue elit, nec gravida diam justo vitae ante. Aenean consequat metus a tortor fermentum ornare. Class aptent taciti arcu.
+				</p>
+				<blockquote class="pull-left">
+					<p>
+						In nec enim ipsum. Quisque non eros eget nunc ullamcorper gravida. Aliquam erat volutpat. Fusce metus libero, congue quis dignissim.
+					</p>
+				</blockquote>
+				<p>
+					Mauris vulputate laoreet lacus, vel tempus magna auctor at. Maecenas tincidunt felis eu erat gravida commodo. Sed iaculis odio nec tortor dapibus nec consectetur dolor mattis. Nulla at lorem turpis, commodo rutrum libero. Fusce vestibulum nisl vitae lorem pharetra pulvinar condimentum nec dui. Aliquam porttitor vestibulum est, ac vehicula magna porta et. Maecenas porta felis fermentum augue sollicitudin molestie. Morbi quis tortor sed dui sodales sollicitudin at accumsan neque. Donec felis arcu, cursus eget volutpat in, vulputate at sapien. Cras arcu enim, dictum in tincidunt vitae, euismod sit amet ante. Nam vitae diam tellus. Nulla semper sodales massa sit amet malesuada. Vestibulum accumsan hendrerit dui, at vestibulum erat venenatis vitae. Phasellus pulvinar venenatis est, vel porta arcu pretium a. Pellentesque lobortis, ante tincidunt posuere sollicitudin, lorem nunc congue elit, nec gravida diam justo vitae ante. Aenean consequat metus a tortor fermentum ornare. Class aptent taciti arcu.
+				</p>
+				<h1>Highlighters</h1>
+				<p>
+					Class aptent taciti sociosqu ad litora torquent <span class="highlight-1">per conubia nostra, per inceptos</span> himenaeos. In hac habitasse platea dictumst. Suspendisse facilisis ullamcorper elementum. Aliquam metus leo, iaculis vitae posuere a, aliquet in nunc. Donec id pulvinar mauris. <span class="highlight-2">Cras dignissim lectus condimentum</span> massa fermentum vitae dapibus sem malesuada. Nullam gravida ipsum quis nibh mollis pellentesque. Etiam ullamcorper porttitor adipiscing. Vestibulum porttitor justo volutpat tellus viverra placerat. Maecenas sem libero, adipiscing sed placerat vel, malesuada at orci. Aliquam mollis odio non neque varius pretium non sed.
+				</p>
+				<h1>Dropcap</h1>
+				<p class="dropcap">
+					Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac habitasse platea dictumst. Suspendisse facilisis ullamcorper elementum. Aliquam metus leo, iaculis vitae posuere a, aliquet in nunc. Donec id pulvinar mauris. Cras dignissim lectus condimentum massa fermentum vitae dapibus sem malesuada. Nullam gravida ipsum quis nibh mollis pellentesque. Etiam ullamcorper porttitor adipiscing. Vestibulum porttitor justo volutpat tellus viverra placerat. Maecenas sem libero, adipiscing sed placerat vel, malesuada at orci. Aliquam mollis odio non neque varius pretium non sed.
+				</p>
+			</div>
+			<div class="clear">
+			</div>
+			<div class="grid_3">
+				<div class="mini-post">
+					<h2>Post Text</h2>
+					<h6 class="inner">Post Header</h6>
+					<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusan tium dolorem laudantium. Laudantium, totam rem.</p>
+                    <div id="panel1" class="mini-panel">
+						Mauris vulputate laoreet lacus, vel tempus magna auctor at. Maecenas tincidunt felis eu erat gravida commodo. Sed iaculis odio nec tortor dapibus nec consectetur dolor mattis. Nulla at lorem turpis, commodo rutrum libero.
+					</div>
+					<p class="slide-control"><a href="javascript:void();" class="btn-slide" id="btn-slide1"></a></p>
+
+				</div>
+			</div>
+			<div class="grid_8 prefix_1">
+				<h2>Toggle Content</h2>
+                <div style="float:left;" class="accordion big">
+					<div class="toggle-big"><span>Toggle Title Example 1</span></div>
+					<div class="toggle-text">
+						<p>
+							Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum pharetra ullamcorper nulla non sodales. Maecenas sed neque leo. Duis vitae urna eu neque laoreet suscipit. Pellentesque volutpat, dui at bibendum mattis, nibh libero venenatis velit, vel tristique libero lacus eget ligula.
+						</p>
+					</div>
+					<div class="toggle-big"><span>Toggle Title Example 2</span></div>
+					<div class="toggle-text">
+						<p>
+							Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum pharetra ullamcorper nulla non sodales. Maecenas sed neque leo. Duis vitae urna eu neque laoreet suscipit. Pellentesque volutpat, dui at bibendum mattis, nibh libero venenatis velit, vel tristique libero lacus eget ligula.
+						</p>
+					</div>
+					<div class="toggle-big"><span>Toggle Title Example 3</span></div>
+					<div class="toggle-text">
+						<p>
+							Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum pharetra ullamcorper nulla non sodales. Maecenas sed neque leo. Duis vitae urna eu neque laoreet suscipit. Pellentesque volutpat, dui at bibendum mattis, nibh libero venenatis velit, vel tristique libero lacus eget ligula.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Copyright -->
+<div class="container content" id="copyright">
+	<div class="container">
+		<div class="container_12">
+			<div class="grid_6">
+				<span class="powered">Powered by <a href="http://960.gs/" title="960 Grid System" id="grid960" target="_blank" rel="nofollow">&nbsp;</a></span>
+			</div>
+			<div class="grid_6">
+				<span class="copy">Copyright &copy; Woo_Doo Style 2012</span>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+if (!($j.browser.msie && $j.browser.version == 8)) {
+    Cufon.now();
+}
+</script>
+</body>
+</html>

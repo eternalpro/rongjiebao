@@ -1,0 +1,42 @@
+input[type="text"] {
+  padding-top: 5px;
+  height: 18px !important;
+}
+div.follow, div.toggle-big, div.toggle-small, .pull-right, .pull-left {
+    behavior: url(htc/PIE.htc);
+	position: relative;
+}
+div.slides ul li {
+    background: url(../images/style2/bg-highlight.gif) !important;
+}
+div.big div.toggle-text {
+    background-color: transparent !important;
+    border: 0 none;
+    height: 82px !important;
+}
+div.big div.toggle-text {
+    background: url(../images/style2/bg-toggle-big.png) no-repeat !important;
+}
+div.small div.toggle-text {
+    background-color: transparent !important;
+    border: 0 none;
+    height: 82px !important;
+}
+div.small div.toggle-text {
+    background: url(../images/style2/bg-toggle-small.png) no-repeat !important;
+}
+#topMenu ul li a, a.readmore, .pagination a, a.more-articles, a.reply, a.form-submit, a.form-reset {
+    font-size: 9px;
+    text-decoration: none;
+}
+a.readmore, a.more-articles, a.reply, a.form-submit, a.form-reset, .comment-tools a {padding-top: 7px !important;}
+.pagination a {padding-top: 4px !important;}
+#quickcontact a.form-submit, #quickcontact a.form-reset, #subscribe a.form-submit{padding-left: 13px !important;}
+h1, h2, h3, h4, h5 {font-family: Helvetica,Calibri,"Arial Narrow",Arial,sans-serif;}
+.subscribe a.form-submit, .search-bar a.form-submit {
+    position:relative;
+    top:-3px;
+}
+.menuHover {display: none;}
+.menuHover:hover {display: inline-block;}
+ul.main-menu li span {margin-top: 2px !important;}

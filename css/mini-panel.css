@@ -1,0 +1,24 @@
+.mini-panel {
+	display: none;
+}
+.slide-control {
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+.btn-slide {
+	height: 31px;
+	width: 100%;
+	padding: 10px 10px 0 0;
+	margin: 0 auto;
+	display: block;
+	text-decoration: none;
+}
+.panel-active {
+}
+#panel1 {
+ height: 120px;
+}
+#btn-slide4 {
+	padding-top:3px;
+}

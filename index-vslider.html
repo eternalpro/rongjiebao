@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>About Us :: Vastu Finance</title>
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/typography.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/template.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/slideshow.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/vslider.css"/>
+<link rel="stylesheet" type="text/css" href="css/ui.totop.css" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="css/mini-panel.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/style2.css" title="style2" media="screen" />
+<!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.js"></script>
+<script type="text/javascript" src="js/jquery.vslider.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
+<script type="text/javascript" src="js/jqueryrotate.js"></script>
+<script type="text/javascript" src="js/mini-panel.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/add.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/CC_Red_Alert_INET_400.font.js"></script>
+<script type="text/javascript" src="js/Helvetica_Neue_200.font.js"></script>
+<script type="text/javascript" src="js/HelveticaNeue_400.font.js"></script>
+<script type="text/javascript" src="js/fonts.js"></script>
+<script type="text/javascript">
+var $j = jQuery.noConflict();
+    if ($j.browser.msie && $j.browser.version < 8) {
+        window.location.href = "browser.html";
+    }
+/* Scroll page ToTop settings */
+	$j(document).ready(function(){
+		$j().UItoTop({easingType: 'easeOutQuart'});
+	});
+/* Accordion settings */
+	var $j = jQuery.noConflict();
+	$j(document).ready( function(){
+		$j(".accordion div.toggle-big").eq(0).addClass("selected");
+		$j(".accordion div.toggle-text").eq(0).show().siblings("div.toggle-text").hide();
+		$j(".accordion div.toggle-big").click(function(){
+			$j(this).next("div.toggle-text").slideToggle("slow").siblings("div.toggle-text").slideUp("slow");
+			$j(this).toggleClass("selected").siblings("div.toggle-big").removeClass("selected");
+		});
+	});
+	$j(document).ready( function(){
+		$j(".accordion div.toggle-small").eq(0).addClass("selected");
+		$j(".accordion div.toggle-text").eq(0).show().siblings("div.toggle-text").hide();
+		$j(".accordion div.toggle-small").click(function(){
+			$j(this).next("div.toggle-text").slideToggle("slow").siblings("div.toggle-text").slideUp("slow");
+			$j(this).toggleClass("selected").siblings("div.toggle-small").removeClass("selected");
+		});
+	});
+/* Rotating Logo setup */
+	jQuery(document).ready(function() {
+		var angle = 0;
+		setInterval(function(){
+			angle-=3;
+			jQuery("#rotate2").rotate({
+				'angle':angle
+           	});
+		},50);
+	});
+/* vSlider setup */
+    var $j = jQuery.noConflict();
+	jQuery().ready(function() {
+		jQuery("#vSlider").vSlider();
+	});
+</script>
+</head>
+<body>
+<!-- Header -->
+<div id="header">
+	<div class="container">
+		<div class="container_12">
+			<div class="grid_5">
+			<a href="index.html" id="logo"><img src="images/style2/logo.png" alt="Vastu Finance" id="rotate2" /></a>
+			</div>
+			<div class="grid_7">
+<!-- Menu -->
+				<div id="topMenu">
+					<div class="user-menu">
+						<ul class="user-menu">
+							<li><a href="javascript:void();">Login</a></li>
+							<li>/</li>
+							<li><a href="javascript:void();">Register</a></li>
+						</ul>
+					</div>
+					<div class="main-menu">
+						<ul class="main-menu">
+							<li><a href="index.html"><strong class="menuHover"></strong><span>About Us</span></a></li>
+							<li><a href="typography.html"><strong class="menuHover"></strong><span>Typography</span></a></li>
+							<li><a href="blog.html"><strong class="menuHover"></strong><span>Blog page</span></a></li>
+							<li><a href="article.html"><strong class="menuHover"></strong><span>Solutions</span></a></li>
+							<li><a href="contact-us.html"><strong class="menuHover"></strong><span>Contact Us</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- vSlider -->
+<div id="showcase">
+	<div class="animation">
+		<ul id="vSlider">
+			<li><a href="javascript:void();"><img src="images/slide/slide1.png" alt="" /></a><span>SUPPORTS CAPTIONS, This is an example of a caption</span></li>
+			<li><a href="javascript:void();"><img src="images/slide/slide2.png" alt="" /></a><span>This is an example of a caption with a <a href="javascript:void();">link</a>. Next slide will be <b>without</b> caption.</span></li>
+			<li><img src="images/slide/slide3.png" alt="" /></li>
+		</ul>
+	</div>
+</div>
+<!-- Top blocks -->
+<div class="container content">
+	<div class="container">
+		<div class="container_12">
+			<div class="grid_4">
+				<div class="top-block">
+					<h2>What is it?</h2>
+					<div class="img240"><img src="images/stories/image01.jpg" alt="What is it?" class="inColor" /><img src="images/stories/image01bw.jpg" alt="What is it?" class="inBlckW" /></div>
+				  <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium dolorem laudantium totam rem aperiam.</p>
+					<a href="article.html" class="readmore">Read more</a>
+				</div>
+			</div>
+			<div class="grid_4">
+				<div class="top-block second">
+					<h2>What is for?</h2>
+					<div class="img240"><img src="images/stories/image02.jpg" alt="What is for?" class="inColor" /><img src="images/stories/image02bw.jpg" alt="What is for?" class="inBlckW" /></div>
+				  <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium dolorem laudantium totam rem aperiam.</p>
+					<a href="article.html" class="readmore">Read more</a>
+				</div>
+			</div>
+			<div class="grid_4">
+				<div class="top-block third">
+					<h2>Why use it?</h2>
+					<div class="img240"><img src="images/stories/image03.jpg" alt="Why use it?" class="inColor" /><img src="images/stories/image03bw.jpg" alt="Why use it?" class="inBlckW" /></div>
+				  <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium dolorem laudantium totam rem aperiam.</p>
+					<a href="article.html" class="readmore">Read more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Special Content block -->
+<div class="container special">
+	<div class="container">
+   		<div class="container_12">
+    		<div class="grid_12">
+	    		<h1>Shortly about <strong>Vastu Finance</strong></h1>
+		    	<img src="images/stories/image10.png" alt="" style="display:block;float:left;margin-right:20px;" />
+			    <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+   				<blockquote>
+    				<p>
+				    	&laquo;Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequ untur magni dolores qui ratione vel voluptatem sequi nesciunt neque quisquam est.&raquo;
+			    	</p>
+		    		<span class="quoteauthor">John Doe, Financial Specialist</span>
+	    		</blockquote>
+    		</div>
+        </div>
+	</div>
+</div>
+<!-- Advertizing blocks -->
+<div class="container content no-bottom-margin">
+	<div class="container">
+		<div class="container_12">
+			<div class="grid_4">
+				<div class="top-block advertizing price-forecast">
+                <div class="iconShow1"> </div>
+                <div class="iconShow2"> </div>
+					<h2>Price forecast</h2>
+					<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium dolorem laudantium totam rem aperiam.</p>
+					<div class="img240"><img src="images/stories/image04.jpg" alt="Price forecast" /></div>
+				    <div class="clear"></div>
+                    <div id="panel2" class="mini-panel">
+						Mauris vulputate laoreet lacus, vel tempus magna auctor at. Maecenas tincidunt felis eu erat gravida commodo. Sed iaculis odio nec tortor dapibus nec consectetur dolor mattis. Nulla at lorem turpis, commodo rutrum libero.
+					</div>
+					<p class="slide-control"><a href="javascript:void();" class="btn-slide" id="btn-slide2"></a></p>
+				</div>
+			</div>
+			<div class="grid_4">
+				<div class="top-block advertizing property-showcase second">
+                <div class="iconShow1"> </div>
+                <div class="iconShow2"> </div>
+					<h2>Property showcase</h2>
+					<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium dolorem laudantium totam rem aperiam.</p>
+					<div class="img70"><img src="images/stories/image05.jpg" alt="" /></div>
+					<div class="img70"><img src="images/stories/image06.jpg" alt="" /></div>
+					<div class="img70"><img src="images/stories/image07.jpg" alt="" /></div>
+				<div class="clear">
+				</div>
+                    <div id="panel3" class="mini-panel">
+						Mauris vulputate laoreet lacus, vel tempus magna auctor at. Maecenas tincidunt felis eu erat gravida commodo. Sed iaculis odio nec tortor dapibus nec consectetur dolor mattis. Nulla at lorem turpis, commodo rutrum libero.
+					</div>
+					<p class="slide-control"><a href="javascript:void();" class="btn-slide" id="btn-slide3"></a></p>
+				</div>
+			</div>
+			<div class="grid_4">
+				<div class="top-block advertizing market-analysis third">
+                <div class="iconShow1"> </div>
+                <div class="iconShow2"> </div>
+					<h2>Market Analysis</h2>
+					<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium dolorem laudantium.</p>
+					<ul class="star">
+						<li><a href="javascript:void();">Integer quis lorem quam</a></li>
+					</ul>
+					<p>Magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
+				<div class="clear">
+				</div>
+                    <div id="panel4" class="mini-panel">
+						Mauris vulputate laoreet lacus, vel tempus magna auctor at. Maecenas tincidunt felis eu erat gravida commodo. Sed iaculis odio nec tortor dapibus nec consectetur dolor mattis. Nulla at lorem turpis, commodo rutrum libero.
+					</div>
+					<p class="slide-control"><a href="javascript:void();" class="btn-slide" id="btn-slide4"></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container content">
+	<div class="container">
+		<div class="container_12">
+			<div class="grid_4">
+				<h2>How to avoid foreclosure</h2>
+				<ul class="check-big">
+					<li><a href="javascript:void();">Special Forbearance</a></li>
+					<li><a href="javascript:void();">Mortgage Modification</a></li>
+					<li><a href="javascript:void();">Partial Claim</a></li>
+					<li><a href="javascript:void();">Pre-foreclosure sale</a></li>
+					<li><a href="javascript:void();">Deed-in-lieu of foreclosure</a></li>
+					<li><a href="javascript:void();">Our best offers</a></li>
+					<li><a href="javascript:void();">Unde omnis iste natus</a></li>
+					<li><a href="javascript:void();">Sed ut perspiciatis unde omnis</a></li>
+				</ul>
+			</div>
+			<div class="grid_7 prefix_1 alpha">
+				<h2>Foreclosure prevention</h2>
+				<p>
+					<span class="img136"><img src="images/stories/image08.jpg" alt="Foreclosure prevention" /></span>
+					<strong class="title">Sed ut perspiciatis</strong><br />
+					Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accus antium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore architecto beatae.
+				</p>
+                <br />
+				<p>
+					<span class="img136"><img src="images/stories/image09.jpg" alt="Foreclosure prevention" /></span>
+					<strong class="title">Sed ut perspiciatis</strong><br />
+					Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accus antium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore architecto beatae.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Highlighted block -->
+<div class="container highlight">
+	<div class="container">
+		<div class="container">
+			<div class="container_12">
+				<div class="grid_12">
+                    <div class="highlighter">
+	    				<h1>Wholesome advice!</h1>
+    					<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo perspiciatis, unde omnis.</p>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container content">
+	<div class="container">
+		<div class="container_12">
+			<div class="grid_3">
+				<div class="mini-post">
+					<h2>Latest Posts</h2>
+                    <div class="latest-posts">
+					    <h6>Post Header</h6>
+				    	<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusan tium dolorem laudantium. Laudantium, totam rem.</p>
+			    		<h6>Post Header</h6>
+		    			<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusan tium dolorem laudantium. Laudantium, totam rem.</p>
+	    				<h6>Post Header</h6>
+    					<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusan tium dolorem laudantium. Laudantium, totam rem.</p>
+                    </div>
+				</div>
+			</div>
+<!-- Quick contact form -->
+			<div class="grid_8 prefix_1">
+				<h2>Quick contact form</h2>
+                <div class="quick-contact">
+                    <form action="mailer.php" name="quickcontact" id="quickcontact" method="post" enctype="multipart/form-data">
+                        <div class="grid_3 alpha">
+                            <input type="text" name="fullName" value="Full Name" onblur="if(this.value=='') { this.style.fontStyle='italic'; this.value='Full Name'; }" onfocus="if(this.value =='Full Name' ) this.value='';this.style.fontStyle='normal';" />
+                            <input type="text" name="from_mail_address" value="Your Email" onblur="if(this.value=='') this.style.fontStyle='italic';if(this.value=='') this.value='Your Email';" onfocus="if(this.value =='Your Email' ) this.value='';this.style.fontStyle='normal';" />
+                            <input type="text" name="phone" value="Telephone" onblur="if(this.value=='') { this.style.fontStyle='italic'; this.value='Telephone'; }" onfocus="if(this.value =='Telephone' ) this.value='';this.style.fontStyle='normal';" />
+                            <input type="text" name="subject" value="Subject" onblur="if(this.value=='') this.style.fontStyle='italic';if(this.value=='') this.value='Subject';" onfocus="if(this.value =='Subject' ) this.value='';this.style.fontStyle='normal';" />
+                        </div>
+                        <div class="grid_5 omega">
+                            <textarea cols="80" rows="25" name="message" id="message" onblur="if(this.value=='') this.style.fontStyle='italic';if(this.value=='') this.value='Your message here';" onfocus="if(this.value =='Your message here' ) this.value='';this.style.fontStyle='normal';">Your message here</textarea>
+                            <div class="form-controls">
+                                <a class="form-reset" href="javascript:document.quickcontact.reset();">Clear</a>
+                                <a class="form-submit" href="javascript:document.quickcontact.submit();">Send message</a>
+                            </div>
+                        </div>
+                    </form>
+				</div>
+                <div class="clear"></div>
+   				<h2>Where we are?</h2>
+                <div>
+                    <span class="addr-mail">17801 International Boulevard, Seattle, WA 98158<br />Email: <a href="mailto:info@companyname.com">info@companyname.com</a></span>
+                    <span class="tel-fax">Tel.: + 1 (800) 555 8578<br />Fax: + 1 (800) 555 7721</span>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Auxiliary -->
+<div class="container content">
+	<div class="container auxiliary">
+		<div class="container_12">
+<!-- Social links -->
+			<div class="grid_6">
+                <div class="follow">
+                    <h1>Follow us on:</h1>
+                    <a href="http://facebook.com/" class="facebook" title="Facebook"></a>
+                    <a href="http://twitter.com/" class="twitter" title="Twitter"></a>
+                    <a href="http://www.google.com/buzz/" class="buzz" title="Google Buzz"></a>
+                    <a href="http://digg.com/" class="digg" title="Digg"></a>
+                    <a href="http://linkedin.com/" class="linkedin" title="LinkedIn"></a>
+                    <a href="mailto:info@companyname.com" class="email" title="Email"></a>
+                    <a href="javascript:void();" class="rss" title="RSS Feed"></a>
+                </div>
+			</div>
+<!-- Newsletter subscribe form -->
+			<div class="grid_6">
+                <div class="subscribe">
+                    <h1>Newsletter:</h1>
+                    <form id="subscribe" name="subscribe" action="mailer.php" method="post">
+                        <div>
+                            <input type="text" name="subscriber" value="Your Email" onblur="if(this.value=='') this.style.fontStyle='italic';if(this.value=='') this.value='Your Email';" onfocus="if(this.value =='Your Email' ) this.value='';this.style.fontStyle='normal';" />
+                            <a class="form-submit" href="javascript:document.subscribe.submit();">Subscribe</a>
+                        </div>
+                    </form>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Copyright -->
+<div class="container content" id="copyright">
+	<div class="container">
+		<div class="container_12">
+			<div class="grid_6">
+				<span class="powered">Powered by <a href="http://960.gs/" title="960 Grid System" id="grid960" target="_blank" rel="nofollow">&nbsp;</a></span>
+			</div>
+			<div class="grid_6">
+				<span class="copy">Copyright &copy; Woo_Doo Style 2012</span>
+			</div>
+			<div class="clear">
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+if (!($j.browser.msie && $j.browser.version == 8)) {
+    Cufon.now();
+}
+</script>
+</body>
+</html>
