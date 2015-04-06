@@ -1,0 +1,78 @@
+table.c-table {
+    width: 100%;
+}
+
+table.c-table>thead>tr>th {
+text-align: left;
+}
+
+table.c-table td {
+    padding: 8px 0px;
+    vertical-align: middle;
+}
+
+span.square {
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-style: normal;
+}
+span.circle {
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    border-radius: 12px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+span.label {
+    padding: 5px 6px;
+    border-radius: 5px;
+}
+
+.info {
+    color: #ffffff;
+    background: #27738F;
+}
+
+.success {
+    color: #ffffff;
+    background: darkgreen;
+}
+
+.danger {
+    color: #ffffff;
+    background: darkred;
+}
+
+.warning {
+    color: #ffffff;
+    background: #FF803E;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+
+.margin5-r {
+    margin-right: 5px;
+}
+
+.margin5-t {
+    margin-top: 5px;
+}
+.line-height {
+    line-height: 24px;
+}
+a {
+    text-decoration: none;
+}
