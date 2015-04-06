@@ -20,16 +20,22 @@ span.square {
     height: 24px;
     line-height: 24px;
     font-style: normal;
+    -webkit-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
 }
 span.circle {
     color: #ffffff;
     text-align: center;
     display: block;
-    border-radius: 12px;
-    width: 24px;
-    height: 24px;
-    line-height: 24px;
+    border-radius: 18px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
     font-style: normal;
+    -webkit-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
 }
 
 span.label {
@@ -75,4 +81,41 @@ span.label {
 }
 a {
     text-decoration: none;
+}
+
+/** т╡пн╫Ь╤х **/
+
+.circle {
+    width: 60px;
+    margin: 6px 6px 20px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.circle canvas {
+    vertical-align: top;
+}
+
+.circle strong {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.circle strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+}
+
+.circle span {
+    display: block;
+    color: #aaa;
+    margin-top: 12px;
 }
