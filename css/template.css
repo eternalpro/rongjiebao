@@ -628,32 +628,16 @@ div.follow {
     display: inline-block;
 }
 
-.follow .facebook {
-    background: url(../images/icons/follow-facebook.png) no-repeat;
+
+
+.follow .tsina {
+    background-image: url("../images/icons/icons_2_24.png");
+    background-position: 0 -105px;
 }
 
-.follow .twitter {
-    background: url(../images/icons/follow-twitter.png) no-repeat;
-}
-
-.follow .buzz {
-    background: url(../images/icons/follow-buzz.png) no-repeat;
-}
-
-.follow .digg {
-    background: url(../images/icons/follow-digg.png) no-repeat;
-}
-
-.follow .linkedin {
-    background: url(../images/icons/follow-linkedin.png) no-repeat;
-}
-
-.follow .email {
-    background: url(../images/icons/follow-email.png) no-repeat;
-}
-
-.follow .rss {
-    background: url(../images/icons/follow-rss.png) no-repeat;
+.follow .tqq {
+    background-image: url("../images/icons/icons_2_24.png");
+    background-position: 0 -259px;
 }
 
 div.subscribe {
