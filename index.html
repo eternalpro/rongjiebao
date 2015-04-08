@@ -303,10 +303,8 @@
 
                     <form id="subscribe" name="subscribe" action="mailer.php" method="post">
                         <div>
-                            <input type="text" name="subscriber" value="输入您的邮件地址"
-                                   onblur="if(this.value=='') this.style.fontStyle='italic';if(this.value=='') this.value='Your Email';"
-                                   onfocus="if(this.value =='Your Email' ) this.value='';this.style.fontStyle='normal';"/>
-                            <a class="readmore" href="javascript:document.subscribe.submit();">提交订阅</a>
+                            <input type="text" name="subscriber" placeholder="输入您的邮件地址" />
+                            <a class="readmore" href="#">提交订阅</a>
                         </div>
                     </form>
                 </div>
