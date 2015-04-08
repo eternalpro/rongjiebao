@@ -122,3 +122,19 @@ a {
     color: #aaa;
     margin-top: 12px;
 }
+
+.bg-black {
+    background: #363B3D;
+}
+
+.pad5-t {
+    padding-top: 5px;
+}
+
+.pad5-b {
+    padding-bottom: 5px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
