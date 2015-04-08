@@ -1,29 +1,10 @@
 <link rel="import" href="../bower_components/polymer/polymer.html"/>
-<link rel="import" href="../bower_components/paper-shadow/paper-shadow.html"/>
 <polymer-element name="custom-label" noscript attributes="type">
     <template>
+        <link rel="stylesheet" href="../css/app.css"/>
         <style>
-            paper-shadow {
-                float: left;
-                padding: 5px;
-                color: #FFFFFF;
-                height: 36px;
-                line-height: 36px;
-                text-align: center;
-            }
-            .success {
-                background: darkgreen;
-            }
-            .warning {
-                background: #FF803E;
-            }
-            .info {
-                background: dodgerblue;
-            }
-            .danger {
-                background: darkred;
-            }
+
         </style>
-        <paper-shadow class="{{type}}" z="3"><content></content></paper-shadow>
+        <span class="square {{type}} pull-left margin5-r"><content></content></span>
     </template>
 </polymer-element>

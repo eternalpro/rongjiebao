@@ -16,7 +16,8 @@ span.square {
     text-align: center;
     display: block;
     border-radius: 4px;
-    width: 24px;
+    padding-left: 6px;
+    padding-right: 6px;
     height: 24px;
     line-height: 24px;
     font-style: normal;
