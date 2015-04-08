@@ -1,0 +1,29 @@
+<link rel="import" href="../bower_components/polymer/polymer.html"/>
+<link rel="import" href="../bower_components/paper-shadow/paper-shadow.html"/>
+<polymer-element name="credit-label" noscript attributes="type">
+    <template>
+        <style>
+            paper-shadow {
+                color: #FFFFFF;
+                width: 36px;
+                height: 36px;
+                border-radius: 18px;
+                line-height: 36px;
+                text-align: center;
+            }
+            .success {
+                background: darkgreen;
+            }
+            .warning {
+                background: #FF803E;
+            }
+            .info {
+                background: dodgerblue;
+            }
+            .danger {
+                background: darkred;
+            }
+        </style>
+        <paper-shadow class="card {{type}}" z="3"><content></content></paper-shadow>
+    </template>
+</polymer-element>

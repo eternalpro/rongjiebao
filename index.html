@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>首页 :: 融界宝</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" media="all" href="css/reset.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="css/960.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="css/typography.css"/>
@@ -15,6 +16,10 @@
     <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen"/>
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <!-- polymer support -->
+    <link rel="import" href="bower_components/polymer/polymer.html"/>
+    <link rel="import" href="bower_components/paper-button/paper-button.html"/>
+    <link rel="import" href="elements/credit-label.html"/>
 
     <style>
 
@@ -33,9 +38,9 @@
                 <div id="topMenu">
                     <div class="user-menu">
                         <ul class="user-menu">
-                            <li><a href="javascript:void();">Login</a></li>
+                            <li><a href="#">Login</a></li>
                             <li>/</li>
-                            <li><a href="javascript:void();">Register</a></li>
+                            <li><a href="#">Register</a></li>
                         </ul>
                     </div>
                     <div class="main-menu">
@@ -60,12 +65,12 @@
     <div class="animation">
         <ul id="vSlider">
             <li>
-                <a href="javascript:void();">
+                <a href="#">
                     <img src="resources/slide1.jpg" alt=""/>
                 </a>
             </li>
             <li>
-                <a href="javascript:void();">
+                <a href="#">
                     <img src="images/slide/slide2.png" alt=""/>
                 </a>
 
@@ -137,7 +142,9 @@
                             <span class="square info pull-left margin5-r">保</span>
                             <span class="line-height">装修</span>
                         </td>
-                        <td><span class="circle success">A</span></td>
+                        <td>
+                            <credit-label type="success">A</credit-label>
+                        </td>
                         <td>11.50%</td>
                         <td>50,000元</td>
                         <td>24个月</td>
@@ -155,7 +162,9 @@
                             <span class="square info pull-left margin5-r">保</span>
                             <span class="line-height">开公司</span>
                         </td>
-                        <td><span class="circle info">B</span></td>
+                        <td>
+                            <credit-label type="info">B</credit-label>
+                        </td>
                         <td>11.50%</td>
                         <td>50,000元</td>
                         <td>24个月</td>
@@ -171,7 +180,9 @@
                             <span class="square info pull-left margin5-r">保</span>
                             <span class="line-height">买车</span>
                         </td>
-                        <td><span class="circle warning">C</span></td>
+                        <td>
+                            <credit-label type="warning">C</credit-label>
+                        </td>
                         <td>11.50%</td>
                         <td>50,000元</td>
                         <td>24个月</td>
@@ -187,7 +198,9 @@
                             <span class="square info pull-left margin5-r">保</span>
                             <span class="line-height">买房</span>
                         </td>
-                        <td><span class="circle danger">D</span></td>
+                        <td>
+                            <credit-label type="danger">D</credit-label>
+                        </td>
                         <td>11.50%</td>
                         <td>50,000元</td>
                         <td>24个月</td>
