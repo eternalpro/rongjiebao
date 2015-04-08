@@ -1,10 +1,23 @@
 <link rel="import" href="../bower_components/polymer/polymer.html"/>
-<polymer-element name="custom-label" noscript attributes="type">
+<polymer-element name="custom-label" attributes="type">
     <template>
         <link rel="stylesheet" href="../css/app.css"/>
         <style>
 
         </style>
-        <span class="square {{type}} pull-left margin5-r"><content></content></span>
+        <span class="square {{shadowed}} {{type}} pull-left margin5-r" on-mouseover="{{mouseOver}}" on-mouseout="{{mouseOut}}"><content></content></span>
     </template>
+    <script>
+        Polymer('custom-label', {
+            created: function(){
+                this.shadowed = 'custom-shadow';
+            },
+            mouseOver: function(){
+                this.shadowed = 'custom-shadow-strong';
+            },
+            mouseOut: function(){
+                this.shadowed = 'custom-shadow';
+            }
+        });
+    </script>
 </polymer-element>

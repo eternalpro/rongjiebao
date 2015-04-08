@@ -11,7 +11,20 @@ table.c-table td {
     vertical-align: middle;
 }
 
+.custom-shadow {
+    -webkit-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
+    box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
+}
+
+.custom-shadow-strong {
+    -webkit-box-shadow: 9px 9px 12px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 9px 12px -5px rgba(0,0,0,0.75);
+    box-shadow: 9px 9px 12px -5px rgba(0,0,0,0.75);
+}
+
 span.square {
+    cursor: default;
     color: #ffffff;
     text-align: center;
     display: block;
@@ -21,9 +34,7 @@ span.square {
     height: 24px;
     line-height: 24px;
     font-style: normal;
-    -webkit-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
-    box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
+
 }
 span.circle {
     color: #ffffff;
