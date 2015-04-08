@@ -188,13 +188,7 @@ ul.main-menu li span {
     position: relative;
 }
 
-ul.main-menu li a {
-    text-transform: uppercase;
-    display: table-cell;
-    height: 20px;
-    vertical-align: middle;
-    text-decoration: none;
-}
+
 
 input[type="text"], textarea {
     padding-left: 4px;
