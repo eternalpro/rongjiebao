@@ -17,7 +17,12 @@ $j(document).ready(function () {
         $j(this).children(".menuHover").stop().animate({opacity: 0}, 750)
     });
 
+});
 
+$j('tr.border-bottom').on('mouseover', function(){
+    $j(this).addClass('active');
+});
 
-
+$j('tr.border-bottom').on('mouseout', function(){
+    $j(this).removeClass('active');
 });

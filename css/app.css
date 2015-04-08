@@ -94,6 +94,10 @@ span.label {
     margin-top: 5px;
 }
 
+.margin30-b {
+    margin-bottom: 30px;
+}
+
 .line-height {
     line-height: 24px;
 }
@@ -158,5 +162,5 @@ a {
     border-bottom: 1px solid #C1C1C1;
 }
 tr.active {
-    background: #CECECE;
+    background: #C1C1C1;
 }
