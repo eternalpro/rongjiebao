@@ -2,25 +2,24 @@ table.c-table {
     width: 100%;
 }
 
-table.c-table>thead>tr>th {
-text-align: left;
+table.c-table > thead > tr > th {
+    text-align: left;
 }
 
-table.c-table td {
-    padding: 8px 0px;
+table.c-table>tbody>tr> td {
     vertical-align: middle;
 }
 
 .custom-shadow {
-    -webkit-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
-    box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 6px 8px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 6px 8px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 6px 8px -5px rgba(0, 0, 0, 0.75);
 }
 
 .custom-shadow-strong {
-    -webkit-box-shadow: 9px 9px 12px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 9px 9px 12px -5px rgba(0,0,0,0.75);
-    box-shadow: 9px 9px 12px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 9px 12px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 9px 12px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 9px 12px -5px rgba(0, 0, 0, 0.75);
 }
 
 span.square {
@@ -36,6 +35,7 @@ span.square {
     font-style: normal;
 
 }
+
 span.circle {
     color: #ffffff;
     text-align: center;
@@ -45,17 +45,17 @@ span.circle {
     height: 36px;
     line-height: 36px;
     font-style: normal;
-    -webkit-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
-    box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 6px 8px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 6px 8px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 6px 8px -5px rgba(0, 0, 0, 0.75);
 }
 
 span.label {
     padding: 5px 6px;
     border-radius: 5px;
-    -webkit-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
-    box-shadow: 3px 6px 8px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 6px 8px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 6px 8px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 6px 8px -5px rgba(0, 0, 0, 0.75);
 }
 
 .info {
@@ -77,9 +77,11 @@ span.label {
     color: #ffffff;
     background: #FF803E;
 }
+
 .pull-left {
     float: left;
 }
+
 .pull-right {
     float: right;
 }
@@ -91,9 +93,11 @@ span.label {
 .margin5-t {
     margin-top: 5px;
 }
+
 .line-height {
     line-height: 24px;
 }
+
 a {
     text-decoration: none;
 }
@@ -101,8 +105,8 @@ a {
 /** т╡пн╫Ь╤х **/
 
 .circle {
-    width: 60px;
-    margin: 6px 6px 20px;
+    width: 40px;
+    margin: 6px 6px 10px;
     display: inline-block;
     position: relative;
     text-align: center;
@@ -119,13 +123,13 @@ a {
     left: 0;
     width: 100%;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
     font-size: 14px;
 }
 
 .circle strong i {
     font-style: normal;
-    font-size: 0.6em;
+    font-size: 0.5em;
     font-weight: normal;
 }
 
@@ -149,4 +153,10 @@ a {
 
 .font-size-14 {
     font-size: 14px;
+}
+.border-bottom{
+    border-bottom: 1px solid #C1C1C1;
+}
+tr.active {
+    background: #CECECE;
 }
