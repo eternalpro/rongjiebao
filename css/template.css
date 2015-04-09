@@ -623,18 +623,29 @@ div.follow {
     margin-top: 5px;
     text-decoration: none;
     display: inline-block;
+    background-image: url("../images/icons/icons_0_24.png");
 }
 
 
 
 .follow .tsina {
-    background-image: url("../images/icons/icons_2_24.png");
     background-position: 0 -105px;
 }
 
 .follow .tqq {
-    background-image: url("../images/icons/icons_2_24.png");
-    background-position: 0 -259px;
+    background-position: 0 -2650px;
+}
+
+.follow .tweixin {
+    background-position: 0 -1610px;
+}
+
+.follow .tbaidu {
+    background-position: 0 -155px;
+}
+
+.follow .trenren {
+    background-position: 0 -205px;
 }
 
 div.subscribe {
