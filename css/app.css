@@ -230,9 +230,14 @@ tr.active {
     border: 1px solid #26A5D3;
     background: #ECECEC;
     cursor: pointer;
-    font-size: 13px;;
-    margin-top: 31px;
+    font-size: 12px;;
+    margin-left: 0px;
+    margin-top: 22px;
     margin-bottom: 20px;
-    padding: 10px 20px;
-    width: 150px
+    padding: 5px 10px;
+    width: 140px
+}
+
+.av-btn:hover {
+    background: #DEDEDE;
 }
