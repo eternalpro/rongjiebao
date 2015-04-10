@@ -78,6 +78,10 @@ span.label {
     background: #FF803E;
 }
 
+.disabled {
+    color: #FFFFFF;
+    background: #9e9c9c;
+}
 .pull-left {
     float: left;
 }
