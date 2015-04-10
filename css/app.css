@@ -6,7 +6,7 @@ table.c-table > thead > tr > th {
     text-align: left;
 }
 
-table.c-table>tbody>tr> td {
+table.c-table > tbody > tr > td {
     vertical-align: middle;
 }
 
@@ -82,6 +82,7 @@ span.label {
     color: #FFFFFF;
     background: #9e9c9c;
 }
+
 .pull-left {
     float: left;
 }
@@ -98,8 +99,28 @@ span.label {
     margin-top: 5px;
 }
 
+.margin20-t {
+    margin-top: 20px;
+}
+
+.margin20-b {
+    margin-bottom: 20px;
+}
+
+.margin30-t {
+    margin-top: 30px;
+}
+
 .margin30-b {
     margin-bottom: 30px;
+}
+
+.margin40-t {
+    margin-top: 40px;
+}
+
+.margin40-b {
+    margin-bottom: 40px;
 }
 
 .line-height {
@@ -162,9 +183,56 @@ a {
 .font-size-14 {
     font-size: 14px;
 }
-.border-bottom{
+
+.border-bottom {
     border-bottom: 1px solid #C1C1C1;
 }
+
+.border-top {
+    border-top: 1px solid #C1C1C1;
+}
+
 tr.active {
     background: #C1C1C1;
+}
+
+.text-danger {
+    color: #d23f31;
+    font-family: "Î¢ÈíÑÅºÚ", "Arial Black", Arial, Helvetica, sans-serif;
+}
+
+.text-info {
+    color: #26A5D3;
+}
+
+.av-money {
+    font-size: 34px;
+    color: #26A5D3;
+    margin-top: 10px;
+    float: right;
+    font-family: 'Sans-Serif';
+    font-weight: lighter
+}
+
+.av-get {
+    margin-top: 30px;
+    font-size: 80px;
+    color: #26A5D3;
+    float: right;
+    font-weight: lighter;
+    float: right;
+    font-family: 'Sans-Serif';
+}
+
+.av-btn {
+    float: left;
+    color: #26A5D3;
+    border: 1px solid #26A5D3;
+    background: #ECECEC;
+    cursor: pointer;
+    font-size: 13px;;
+    margin-top: 31px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 150px
 }

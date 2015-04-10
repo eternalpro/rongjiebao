@@ -22,7 +22,6 @@
     <link rel="import" href="bower_components/paper-button/paper-button.html"/>
     <link rel="import" href="elements/circle-label.html"/>
     <link rel="import" href="elements/custom-label.html"/>
-
     <style>
 
     </style>
@@ -140,6 +139,76 @@
             </div>
         </div>
     </div>
+
+    <!-- 理财产品 -->
+
+    <div class="container content no-bottom-margin border-top margin20-t margin20-b">
+        <div class="container">
+            <div class="container_12">
+                <div class="grid_4">
+                    <div class="top-block advertizing price-forecast">
+                        <div class="iconShow1"> </div>
+                        <div class="iconShow2"> </div>
+                        <h2>融界宝<strong class="text-danger">计划A</strong></h2>
+                        <div class="font-size-14">计划金额：</div>
+                        <div class="av-money">￥6,000,000</div>
+                        <div class="margin40-t font-size-14">预期年化收益: </div>
+                        <div class="av-get">10%</div>
+                        <button class="av-btn">34分16秒后加入</button>
+                        <div class="clear"></div>
+                        <div id="panel2" class="mini-panel">
+                            <p><strong>说明：</strong></p>
+                            <p>
+                                这里面是对U计划A的一个简单的描述，最好能写5行文字才好看
+                            </p>
+                        </div>
+                        <p class="slide-control"><a href="javascript:void();" class="btn-slide" id="btn-slide2"></a></p>
+                    </div>
+                </div>
+                <div class="grid_4">
+                    <div class="top-block advertizing property-showcase second">
+                        <div class="iconShow1"> </div>
+                        <div class="iconShow2"> </div>
+                        <h2>融界宝<strong class="text-danger">计划B</strong></h2>
+                        <div class="font-size-14">计划金额：</div>
+                        <div class="av-money">￥6,000,000</div>
+                        <div class="margin40-t font-size-14">预期年化收益: </div>
+                        <div class="av-get">6%</div>
+                        <button class="av-btn">34分16秒后加入</button>
+                        <div class="clear"></div>
+                        <div id="panel3" class="mini-panel">
+                            <p><strong>说明：</strong></p>
+                            <p>
+                                这里面是对U计划A的一个简单的描述，最好能写5行文字才好看
+                            </p>
+                        </div>
+                        <p class="slide-control"><a href="javascript:void();" class="btn-slide" id="btn-slide3"></a></p>
+                    </div>
+                </div>
+                <div class="grid_4">
+                    <div class="top-block advertizing market-analysis third">
+                        <div class="iconShow1"> </div>
+                        <div class="iconShow2" style="opacity: 0;"> </div>
+                        <h2>融界宝<strong class="text-danger">计划C</strong></h2>
+                        <div class="font-size-14">计划金额：</div>
+                        <div class="av-money">￥6,000,000</div>
+                        <div class="margin40-t font-size-14">预期年化收益: </div>
+                        <div class="av-get">8%</div>
+                        <button class="av-btn">34分16秒后加入</button>
+                        <div class="clear"></div>
+                        <div id="panel4" class="mini-panel">
+                            <p><strong>说明：</strong></p>
+                            <p>
+                                这里面是对U计划A的一个简单的描述，最好能写5行文字才好看
+                            </p>
+                        </div>
+                        <p class="slide-control"><a href="javascript:void();" class="btn-slide" id="btn-slide4"></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- 投资列表 -->
     <div class="container special">
         <div class="container">
@@ -409,47 +478,12 @@
         jQuery("#vSlider").vSlider();
     });
 
-    $j('#circle1').circleProgress({
-        value: 0.75,
-        size: 40,
-        fill: {gradient: ['#4B86DB', '#4B86DB']}
-    }).on('circle-animation-progress', function (event, progress) {
-        $j(this).find('strong').html(parseInt(75 * progress) + '<i>%</i>');
-    });
 
-
-    $j('#circle2').circleProgress({
-        value: 0.45,
-        size: 40,
-        fill: {gradient: ['#4B86DB', '#4B86DB']}
-    }).on('circle-animation-progress', function (event, progress) {
-        $j(this).find('strong').html(parseInt(45 * progress) + '<i>%</i>');
-    });
-
-    $j('#circle3').circleProgress({
-        value: 0.65,
-        size: 40,
-        fill: {gradient: ['#4B86DB', '#4B86DB']}
-    }).on('circle-animation-progress', function (event, progress) {
-        $j(this).find('strong').html(parseInt(65 * progress) + '<i>%</i>');
-    });
-
-    $j('#circle4').circleProgress({
-        value: 0.95,
-        size: 40,
-        fill: {gradient: ['#4B86DB', '#4B86DB']}
-    }).on('circle-animation-progress', function (event, progress) {
-        $j(this).find('strong').html(parseInt(95 * progress) + '<i>%</i>');
-    });
-
-    $j('#circle5').circleProgress({
-        value: 0.95,
-        size: 40,
-        fill: {gradient: ['#4B86DB', '#4B86DB']}
-    }).on('circle-animation-progress', function (event, progress) {
-        $j(this).find('strong').html(parseInt(95 * progress) + '<i>%</i>');
-    });
-
+    cp($j('#circle1'), 0.75, 40, 75);
+    cp($j('#circle2'), 0.75, 40, 75);
+    cp($j('#circle3'), 0.75, 40, 75);
+    cp($j('#circle4'), 0.75, 40, 75);
+    cp($j('#circle5'), 0.75, 40, 75);
 
 </script>
 </body>
